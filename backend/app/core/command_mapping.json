@@ -1,0 +1,60 @@
+{
+  "commands": [
+    {
+      "pattern": "1 short",
+      "command": "YES",
+      "message": "Yes",
+      "hindi": "हाँ",
+      "marathi": "होय",
+      "audio_id": "0001"
+    },
+    {
+      "pattern": "2 short",
+      "command": "NO",
+      "message": "No",
+      "hindi": "नहीं",
+      "marathi": "नाही",
+      "audio_id": "0002"
+    },
+    {
+      "pattern": "1 long",
+      "command": "HELP",
+      "message": "I need help",
+      "hindi": "मुझे मदद चाहिए।",
+      "marathi": "मला मदत हवी आहे।",
+      "audio_id": "0003"
+    },
+    {
+      "pattern": "3 short",
+      "command": "WATER",
+      "message": "I need water",
+      "hindi": "मुझे पानी चाहिए।",
+      "marathi": "मला पाणी हवे आहे।",
+      "audio_id": "0004"
+    },
+    {
+      "pattern": "4 short",
+      "command": "PAIN",
+      "message": "I am in pain",
+      "hindi": "मुझे दर्द हो रहा है।",
+      "marathi": "मला वेदना होत आहेत।",
+      "audio_id": "0005"
+    },
+    {
+      "pattern": "5 short",
+      "command": "COME_HERE",
+      "message": "Please come here",
+      "hindi": "कृपया यहाँ आइए।",
+      "marathi": "कृपया इथे या।",
+      "audio_id": "0006"
+    },
+    {
+      "pattern": "long+long",
+      "command": "EMERGENCY",
+      "message": "Emergency. Please help me",
+      "hindi": "आपातकाल। कृपया मेरी मदद करें।",
+      "marathi": "आणीबाणी आहे। कृपया मला मदत करा।",
+      "audio_id": "0007"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --bg: #f6f4ef;
+  --surface: #ffffff;
+  --ink: #1b2430;
+  --muted: #566170;
+  --line: #e2ded4;
+  --fusion: #0f6b6b;
+  --ir: #2f55a4;
+  --emg: #b4570a;
+  --ok: #2e7d4f;
+  --warn: #9a6700;
+  --danger: #b3261e;
+  font-family: "Atkinson Hyperlegible", system-ui, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--ink);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--bg);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--fusion);
+  outline-offset: 2px;
+}
+
+::selection {
+  color: var(--surface);
+  background: var(--fusion);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
